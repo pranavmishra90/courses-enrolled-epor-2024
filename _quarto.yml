@@ -25,7 +25,7 @@ website:
       #   contents: "**/*.ipynb"
   reader-mode: true
   repo-url: https://github.com/pranavmishra90/courses-enrolled-epor-2024
-  repo-actions: [edit, issue]
+  repo-actions: [source, edit, issue]
   page-footer: "Copyright 2024: Pranav Mishra"
 
 bibliography:
