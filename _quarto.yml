@@ -1,1 +1,103 @@
-.git/annex/objects/X9/WM/MD5E-s2026--33200937bab2c40cbb48b6c5fb78dbb2.yml/MD5E-s2026--33200937bab2c40cbb48b6c5fb78dbb2.yml
+project:
+  type: website
+  preview:
+    port: 3334
+    browser: true
+    watch-inputs: true
+    timeout: 300
+
+render:
+    - "*.qmd"
+    - "lectures/"
+
+website:
+  title: "Essentials of Patient Oriented Research"
+  navbar:
+    search: true
+  open-graph: true
+  sidebar:
+    style: "docked"
+    contents: auto
+  reader-mode: true
+  repo-url: https://github.com/pranavmishra90/courses-enrolled-epor-2024
+  repo-actions: [edit, issue]
+  page-footer: "Copyright 2024: Pranav Mishra"
+
+bibliography:
+  - ./src/references.bib
+csl: ./src/ama.csl
+
+
+
+citation: false
+google-scholar: true
+
+affiliations:
+  - id: rushortho
+    name: Dept of Orthopedic Surgery, Rush University
+    department: Orthopedic Surgery
+    city: Chicago
+    region: IL
+    country: USA
+    postal-code: 60612
+    affiliation-url: https://rushu.rush.edu
+    
+  - id: rushsurg
+    name: Dept of Surgery, Rush University
+    department: Surgery
+    address: 1735 W Harrison St, Ste 563
+    city: Chicago
+    region: IL
+    country: USA
+    postal-code: 60612
+    affiliation-url: https://rushu.rush.edu
+
+  - id: rushpeds
+    name: Dept of Pediatrics, Rush University
+    department: Pediatrics
+    address: 1735 W Harrison St, Ste 563
+    city: Chicago
+    region: IL
+    country: USA
+    postal-code: 60612
+    affiliation-url: https://rushu.rush.edu
+
+
+execute:
+  freeze: auto
+  cache: true
+  error: true
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    lang: en-US
+    email-obfuscation: javascript
+    code-fold: false
+    code-line-numbers: true
+    code-overflow: wrap
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+    default-image-extension: svg
+
+    embed-resources: true
+  # gfm:
+  #   preview-mode: raw
+
+  # pdf:
+  #   # pdf-engine: latexmk
+  #   documentclass: scrartcl
+  #   toc: true
+  #   code-fold: true
+  #   papersize: letter
+  #   toc-depth: 2
+  #   margin-left: 30mm
+  #   margin-right: 30mm
+  #   highlight-style: github
+  #   colorlinks: true
+  #   default-image-extension: png  
