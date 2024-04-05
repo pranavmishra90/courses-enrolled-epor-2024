@@ -1,7 +1,15 @@
-# Project <insert name>
+# Essentials of Patient Oriented Research (EPOR) Spring 2024
 
-## Dataset structure
+Statistical methods in clinical research
 
-- All inputs (i.e. building blocks from other sources) are located in
-  `inputs/`.
-- All custom code is located in `code/`.
+## Course information
+
+Theodore Karrison, Ph.D.  
+Research Professor  
+Director, Biostatics Laboratory  
+Department of Public Health Sciences  
+
+Thursdays, March 28 - June 6, 2024  
+5:15 - 6:45 pm   
+
+
