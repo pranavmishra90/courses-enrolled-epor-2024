@@ -1,0 +1,35 @@
+---
+title: "Essentials of Patient Oriented Research (EPOR) Spring 2024"
+subtitle: "Class notebook"
+date: 2024-04-04
+date-format: full
+author:
+  - name: 
+      given: Pranav Kumar 
+      family: Mishra
+    affiliations:
+      - ref: rushsurg
+      - ref: rushortho
+    corresponding: true
+    url: https://drpranavmishra.com
+    email: pranav_k_mishra@rush.edu
+    orcid: 0000-0001-5219-6269
+    role: "Post Doctoral Research Fellow"
+
+execute: 
+  enabled: false
+  echo: true
+  output: true
+---
+
+## Course information
+
+Theodore Karrison, Ph.D.  
+Research Professor  
+Director, Biostatics Laboratory  
+Department of Public Health Sciences  
+
+Thursdays, March 28 - June 6, 2024  
+5:15 - 6:45 pm   
+
+

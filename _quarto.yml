@@ -8,7 +8,9 @@ project:
 
 render:
     - "*.qmd"
+    - "*.md"
     - "lectures/"
+    - "*.ipynb"
 
 website:
   title: "Essentials of Patient Oriented Research"
@@ -18,6 +20,9 @@ website:
   sidebar:
     style: "docked"
     contents: auto
+      # - index.qmd
+      # - section: lectures
+      #   contents: "**/*.ipynb"
   reader-mode: true
   repo-url: https://github.com/pranavmishra90/courses-enrolled-epor-2024
   repo-actions: [edit, issue]
