@@ -35,5 +35,5 @@ Thursdays, March 28 - June 6, 2024
 
 ## Web notebook information
 
-This is an online notebook generated as a `quarto` website. The jupyter notebooks are rendered (without execution) by a GitHub Action on a push to the main branch. Notebooks should be executed locally, so that the cell outputs are in the files, prior to commiting changes to git.
+This is an online notebook generated as a `quarto` website. The jupyter notebooks are rendered (without execution) by a GitHub Action on a push to the main branch. Notebooks should be executed locally, so that the cell outputs are in the files, prior to committing changes to git.
 
