@@ -47,6 +47,13 @@
     "text": "Theodore Karrison, Ph.D.\nResearch Professor\nDirector, Biostatics Laboratory\nDepartment of Public Health Sciences\nThursdays, March 28 - June 6, 2024\n5:15 - 6:45 pm"
   },
   {
+    "objectID": "index.html#web-notebook-information",
+    "href": "index.html#web-notebook-information",
+    "title": "Essentials of Patient Oriented Research (EPOR) Spring 2024",
+    "section": "Web notebook information",
+    "text": "Web notebook information\nThis is an online notebook generated as a quarto website. The jupyter notebooks are rendered (without execution) by a GitHub Action on a push to the main branch. Notebooks should be executed locally, so that the cell outputs are in the files, prior to commiting changes to git."
+  },
+  {
     "objectID": "lectures/01 - Introduction and Data Summarization.html",
     "href": "lectures/01 - Introduction and Data Summarization.html",
     "title": "Week 1 - Introduction and Data Summarization",
